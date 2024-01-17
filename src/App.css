@@ -1,0 +1,109 @@
+.login-wrapper {
+  background-color: rgb(237,73,56);
+  color: white;
+  padding: 0px 20px;
+  cursor: pointer;
+font-weight: bold;
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  padding: 10px 20px;
+border-right: 1px solid black;
+display: flex;
+align-items: center;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+main {
+  height: 400px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://www.westfieldinsurance.com/-/media/project/westfield/westfieldinsurance/banners/home/homepage-hero-mywestfield-964761706.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+padding: 20px;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sign-up-btn {
+border: 1px solid rgb(237,73,56);
+text-transform: uppercase;
+color: rgb(237,73,56);
+padding: 10px 20px;
+width: fit-content;
+cursor: pointer;
+font-weight: bold;
+}
+
+.learn-more-text {
+  cursor: pointer;
+color: rgb(237,73,56);
+
+}
+
+.find-an-agent-wrapper {
+  padding: 10px 20px;
+  margin-top: 60px;
+  border-top: 1px solid rgb(237,73,56);
+  border-bottom: 1px solid rgb(237,73,56);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+
+}
+
+.find-an-agent-bottom-wrapper {
+  display: flex;
+  gap: 10px;
+
+}
+
+.find-an-agent-text {
+  text-align: center;
+}
+
+.find-an-agent-button {
+  color: white;
+  background-color: rgb(237,73,56);
+  border: none;
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.zip-code-input {
+  flex: 1;
+  padding-left: 10px;
+}
